@@ -1,0 +1,113 @@
+/* index.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.list-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.form-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column; 
+  padding:20px;
+
+  margin-right: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.input-value {
+  flex: 1;
+  padding: 5px;
+  margin:10px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px ;
+  font-size: 16px;
+  margin-left: 0px;
+  width:120px;
+  margin-right:30px;
+}
+.each-button{
+  margin:10px;
+}
+.filter-containers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  width: 250px;
+  height:200px;
+  margin-left: 10px;
+}
+
+.line {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.paragraph {
+  text-align: center;
+
+}
+
+.list-items {
+  padding: 0;
+}
+
+.comment-item {
+  list-style: none;
+}
+
+.comment-item p {
+  margin: 0;
+}
+
+.comment-item .buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.comment-item .like-container {
+  margin-right: auto;
+}
+
+.comment-item .button {
+  margin-left: 10px;
+}
